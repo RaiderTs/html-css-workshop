@@ -1,0 +1,23 @@
+@import "./left.scss";
+@import "./center.scss";
+@import "./right.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fff;
+  color: #253858;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+
+  h1 {
+    font-size: 40px;
+  }
+}
+
