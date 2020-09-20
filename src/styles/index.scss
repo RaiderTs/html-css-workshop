@@ -16,8 +16,37 @@ body {
   line-height: normal;
   letter-spacing: normal;
 
-  h1 {
-    font-size: 40px;
-  }
+ 
 }
 
+.wrapper {
+  width: 1322px;
+  height: 700px;
+  background-color: #f9f9fc;
+  margin: 50px auto;
+  padding: 16px 32px 76px;// top right  bottom left
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 248px auto 330px;
+  gap: 32px;
+  grid-template-rows: 608px;
+  grid-template-areas: "left center right";
+}
+.btn {
+  outline: none;
+  height: 36px;
+  width: 102px;
+  border: 1.5px solid #2684ff;
+  background-color: #2684ff;
+  border-radius: 6PX;
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+
+
+  &:hover,
+  &:focus {
+    background-color: transparent;
+    color: #2684ff;
+  }
+}

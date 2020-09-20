@@ -8,6 +8,77 @@
     <title>Lectrum</title>
   </head>
   <body>
-    <h1>Добро пожаловать!</h1>
+    <div class= "wrapper">
+      <div class="left">
+<h1 class="left__title">Available payments</h1>
+<div class="left__company">
+  <img src="img/taxes.svg" class="taxes"/>
+  <p class="left__company-desc">Taxes</p>
+</div>
+<div class="left__company">
+  <img src="img/water.svg"/>
+  <p class="left__company-desc">Cold water</p>
+</div>
+<div class="left__company">
+  <img src="img/internet.svg"/>
+  <p class="left__company-desc">Internet</p>
+</div>
+<div class="left__company">
+  <img src="img/security.svg"/>
+  <p class="left__company-desc">Security</p>
+</div>
+<div class="left__company">
+  <img src="img/exchange.svg"/>
+  <p class="left__company-desc">Curency purchase</p>
+</div>
+      </div>
+      <div class="right">
+        <h2 class="right__title">Saved Payments</h2>
+        <form class="right__payments">
+          <div class="right__payments-fields">
+            <p class="right__payments-field">
+              <label for="">
+                <input type="checkbox" checked>
+                <span>Taxes</span>
+              </label>
+            </p>
+             <p class="right__payments-field">
+              <label for="">
+                <input type="checkbox" checked>
+                <span>Taxes</span>
+              </label>
+            </p>
+             <p class="right__payments-field">
+              <label for="">
+                <input type="checkbox" checked>
+                <span>Taxes</span>
+              </label>
+            </p>
+             <p class="right__payments-field">
+              <label for="">
+                <input type="checkbox" checked>
+                <span>Security</span>
+              </label>
+            </p>
+             <p class="right__payments-field">
+              <label for="">
+                <input type="checkbox" checked>
+                <span>Curency purchase</span>
+              </label>
+            </p>
+          </div>
+          <div class="right__payments-footer">
+            <button class="btm" type="submit">Pay</button>
+          </div>
+        </form>
+        <div class="right__transactions">
+          <p class="transaction__title">Transaction</p>
+          <ul class="transaction__list">
+            <li class="list__item">Taxas:</li>
+            <li class="list__item list__item-error">Security:</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
